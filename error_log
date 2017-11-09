@@ -1,0 +1,64 @@
+[29-Mar-2017 07:09:47 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 07:09:48 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 07:09:49 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 07:19:08 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:04:54 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:05:41 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:05:43 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:05:48 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:08:40 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:08:41 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 09:08:42 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 10:18:55 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 13:55:01 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 13:57:47 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 13:57:48 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 13:57:48 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[29-Mar-2017 14:34:33 UTC] ERROR PostmanWpMail: Exception code=550 message=Verification failed for <wordpress@ecce.dink.com.sg>
+ No Such User Here
+ Sender verify failed
+[02-Apr-2017 04:26:17 UTC] ERROR PostmanWpMail: Exception code=0 message=Invalid "To" e-mail address "springbrainykidz@gmail.con"
+[02-Apr-2017 04:27:49 UTC] ERROR PostmanWpMail: Exception code=0 message=Invalid "To" e-mail address "springbrainykidz@gmail.con"
+[08-Apr-2017 10:55:33 UTC] PHP Warning:  fwrite() [<a href='function.fwrite'>function.fwrite</a>]: SSL operation failed with code 1. OpenSSL Error messages:
+error:140D00CF:SSL routines:SSL_write:protocol is shutdown in /home/tomswate/ecce.dink.com.sg/wp-content/plugins/postman-smtp/Postman/Postman-Mail/Zend-1.12.10/Mail/Protocol/Abstract.php on line 325
+[08-Apr-2017 10:55:33 UTC] ERROR PostmanWpMail: Exception code=0 message=Could not read from smtp.gmail.com
+[08-Apr-2017 10:55:44 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/tomswate/ecce.dink.com.sg/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20
+[25-Sep-2017 06:04:11 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/qrcom/public_html/ledsymposium2017/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20
+[25-Sep-2017 06:04:30 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/qrcom/public_html/ledsymposium2017/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20
+[25-Sep-2017 08:00:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/qrcom/public_html/ledsymposium2017/wp-includes/class.wp-styles.php:237) in /home/qrcom/public_html/ledsymposium2017/wp-includes/pluggable.php on line 1174
+[25-Sep-2017 08:01:25 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/qrcom/public_html/ledsymposium2017/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20
+[27-Sep-2017 06:24:17 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/qrcom/public_html/ledsymposium2017/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20
+[27-Sep-2017 14:53:10 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/qrcom/public_html/ledsymposium2017/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20
+[02-Oct-2017 07:04:12 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/qrcom/public_html/ledsymposium2017/wp-content/plugins/tickera/includes/templates/page-confirmation.php on line 20

@@ -1,0 +1,636 @@
+/*
+
+	Theme Name: HTML5 Blank
+
+	Theme URI: http://html5blank.com
+
+	Description: HTML5 Blank WordPress Theme
+
+	Version: 1.4.3
+
+	Author: Todd Motto (@toddmotto)
+
+	Author URI: http://toddmotto.com
+
+	Tags: Blank, HTML5, CSS3
+
+
+
+	License: MIT
+
+	License URI: http://opensource.org/licenses/mit-license.php
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+
+	TYPOGRAPHY
+
+\*------------------------------------*/
+
+
+
+@font-face {
+
+	font-family:'Font-Name';
+
+	src:url('fonts/font-name.eot');
+
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+
+		url('fonts/font-name.woff') format('woff'),
+
+		url('fonts/font-name.ttf') format('truetype'),
+
+		url('fonts/font-name.svg#font-name') format('svg');
+
+    font-weight:normal;
+
+    font-style:normal;
+
+}
+
+
+
+/*------------------------------------*\
+
+    RESPONSIVE
+
+\*------------------------------------*/
+
+
+
+/*@media only screen and (min-width:320px) {
+
+
+
+}
+
+@media only screen and (min-width:480px) {
+
+
+
+}
+
+@media only screen and (min-width:768px) {
+
+
+
+}*/
+
+@media only screen and (min-width:1024px) {
+
+
+
+}
+
+@media only screen and (min-width:1140px) {
+
+
+
+}
+
+@media only screen and (min-width:1280px) {
+
+
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+
+	   only screen and (min-resolution:144dpi) {
+
+
+
+}
+
+
+
+/*------------------------------------*\
+
+    MISC
+
+\*------------------------------------*/
+
+
+
+::selection {
+
+	background:#04A4CC;
+
+	color:#FFF;
+
+	text-shadow:none;
+
+}
+
+::-webkit-selection {
+
+	background:#04A4CC;
+
+	color:#FFF;
+
+	text-shadow:none;
+
+}
+
+::-moz-selection {
+
+	background:#04A4CC;
+
+	color:#FFF;
+
+	text-shadow:none;
+
+}
+
+
+
+/*------------------------------------*\
+
+    WORDPRESS CORE
+
+\*------------------------------------*/
+
+
+
+.alignnone {
+
+	margin:5px 20px 20px 0;
+
+}
+
+.aligncenter,
+
+div.aligncenter {
+
+	display:block;
+
+	margin:5px auto 5px auto;
+
+}
+
+.alignright {
+
+	float:right;
+
+	margin:5px 0 20px 20px;
+
+}
+
+.alignleft {
+
+	float:left;
+
+	margin:5px 20px 20px 0;
+
+}
+
+a img.alignright {
+
+	float:right;
+
+	margin:5px 0 20px 20px;
+
+}
+
+a img.alignnone {
+
+	margin:5px 20px 20px 0;
+
+}
+
+a img.alignleft {
+
+	float:left;
+
+	margin:5px 20px 20px 0;
+
+}
+
+a img.aligncenter {
+
+	display:block;
+
+	margin-left:auto;
+
+	margin-right:auto;
+
+}
+
+.wp-caption {
+
+	background:#FFF;
+
+	border:1px solid #F0F0F0;
+
+	max-width:96%;
+
+	padding:5px 3px 10px;
+
+	text-align:center;
+
+}
+
+.wp-caption.alignnone {
+
+	margin:5px 20px 20px 0;
+
+}
+
+.wp-caption.alignleft {
+
+	margin:5px 20px 20px 0;
+
+}
+
+.wp-caption.alignright {
+
+	margin:5px 0 20px 20px;
+
+}
+
+.wp-caption img {
+
+	border:0 none;
+
+	height:auto;
+
+	margin:0;
+
+	max-width:98.5%;
+
+	padding:0;
+
+	width:auto;
+
+}
+
+.wp-caption .wp-caption-text,
+
+.gallery-caption {
+
+	font-size:11px;
+
+	line-height:17px;
+
+	margin:0;
+
+	padding:0 4px 5px;
+
+}
+
+.sticky {
+
+
+
+}
+
+.bypostauthor {
+
+
+
+}
+
+
+
+/*------------------------------------*\
+
+    SINGLE VIDEO
+
+\*------------------------------------*/
+
+.page-template-template-single-video-php iframe {
+
+	width: 100%!important
+
+}
+
+
+
+/*------------------------------------*\
+
+    PRINT
+
+\*------------------------------------*/
+
+
+
+@media print {
+
+	* {
+
+		background:transparent !important;
+
+		color:#000 !important;
+
+		box-shadow:none !important;
+
+		text-shadow:none !important;
+
+	}
+
+	a,
+
+	a:visited {
+
+		text-decoration:underline;
+
+	}
+
+	a[href]:after {
+
+		content:" (" attr(href) ")";
+
+	}
+
+	abbr[title]:after {
+
+		content:" (" attr(title) ")";
+
+	}
+
+	.ir a:after,
+
+	a[href^="javascript:"]:after,
+
+	a[href^="#"]:after {
+
+		content:"";
+
+	}
+
+	pre,blockquote {
+
+		border:1px solid #999;
+
+		page-break-inside:avoid;
+
+	}
+
+	thead {
+
+		display:table-header-group;
+
+	}
+
+	tr,img {
+
+		page-break-inside:avoid;
+
+	}
+
+	img {
+
+		max-width:100% !important;
+
+	}
+
+	@page {
+
+		margin:0.5cm;
+
+	}
+
+	p, h1, h2, h3, h4, h5, h6 {
+		font-family: 'Open Sans', sans-serif;
+		color: #665547;
+	}
+
+}
+
+/*------------------------------------*\
+
+    CUSTOM
+
+\*------------------------------------*/
+
+
+#body-style{
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.bg-image{
+	display: block;
+	background-image: url("wp-content/uploads/2017_V2/cloud.jpg")!important;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100% !important;
+	max-width: 1000px !important;
+	text-align:left;
+	padding-left:30px;
+	padding-right:20px;
+}
+
+#footer-style{
+	position:relaive !important;
+	background-color: transparent;
+	width:100%;
+	text-align: center;
+}
+
+
+#footer-style img {
+	
+	text-align:center;
+}
+
+.footer-container-text{
+	display: inline-block;
+	width: 19%;
+	text-align: left;
+	vertical-align: top;
+}
+
+.footer-container-image-inner {
+    text-align: center;
+}
+
+.footer-container-text {
+    display: inline-text;
+    width: 140px;
+    margin:0 auto;
+}
+
+.footer-container-image-inner{
+	display: inline-text;
+	min-width: 200px;
+}
+
+.footer-container-image{
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+	vertical-align: top;
+}
+
+.footer-logos{
+	height: 0px;
+}
+.footer-widgets{
+    height: 0px;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.max-1000{
+    max-width: 1000px;
+    margin: 0 auto !important;    
+}
+
+.schedule-table{
+    width:100%; 
+    max-width:800px;
+}
+
+.schedule-table th {
+    padding-bottom: 15px;
+    padding-left:6px;
+    padding-top:3px;
+    border-right: 2px solid white;
+    border-bottom: 5px solid white;
+}
+
+
+.schedule-table td {
+    padding-bottom: 15px;
+    padding-left:6px;
+    padding-top:3px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.schedule-table-header th{
+    background-color:#665446; 
+    color:white;
+}
+
+.schedule-table-row-combine td{
+    background-color:#ffc313;
+}
+
+.schedule-table-row-odd td{
+     background-color:#d4c1b3;
+}
+
+.schedule-table-row-even td{
+    background-color:white;
+}
+
+.btn-gold a{
+    background: #e7930d !important;
+    min-width: 250px !important;
+    font-size: 16px !important;
+    padding: 14px 30px !important;
+}
+
+.btn-brown a{
+    background: #665446 !important;
+    min-width: 250px !important;
+    font-size: 16px !important;
+    padding: 14px 30px !important;
+}
+
+.member-actions {
+	float: right;
+}
+
+.header .member-actions a {
+    color: white;
+    margin-left: 10px;
+    margin-right:10px;
+    float:right !important;
+}
+
+.fields-wrap{
+    max-width: 600px;
+    margin: auto;
+}
+
+.tickera select {
+    max-width: 100% !important;
+    border: 1px solid rgba(0, 0, 0, 0.4) !important;
+    height: 46px;
+}
+
+select.buyer-field-select.tickera-input-field {
+    margin-bottom: -10px;
+}
+
+.actions {
+    text-align: center;
+}
+
+.btn-wda {
+	background-color: #665446 !important;
+}
+
+#choose-hidden{
+	display: none;
+}
+
+#choose-filler{
+	height: 600px;
+}
+
+#choose-filler p{
+	padding-top: 400px;
+	text-align: center;
+}
+
+.confirm-message{
+	text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.tickera-payment-gateways {
+	border: 0px solid white;
+}
+
+form#tc_payment_form {
+    margin-top: 200px;
+	margin-left: 20px;
+}
+
+.my-tickets {
+    margin-top: 50px;
+}
+
+.ticket-page-content{
+    padding-top:80px;
+}
+
+.big-display {
+    display: block;
+}
+
+.small-display{
+	display: none;
+
+}
+
+/* Big Screen */
+@media only screen and (max-width:600px){
+	.big-display {display: none;}
+	.small-display {display: block;}
+	.bg-image{background-image: url("wp-content/uploads/2017_V2/cloud.jpg");}
+}
+/* Small Screen */
+@media (max-width:599px) {
+	.big-display {display: none;}
+	.small-display {display: block;}
+	.bg-image{background-image: url("wp-content/uploads/2017_V2/cloud.jpg");}
+	header.header .member-actions a {color: black; margin-left: 10px; margin-right:10px; float:right !important;}
+}

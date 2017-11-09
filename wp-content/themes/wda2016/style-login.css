@@ -1,0 +1,115 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+body.login {
+    font-family: 'Open Sans', sans-serif;
+}
+body.login div#login {
+    padding: 10% 0 0;
+    position: relative;
+    z-index: 2
+}
+@media (max-width:767px) {
+    body.login div#login {
+        padding: 100px 0 0;
+    }
+}
+body.login div#login h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 100px;
+    opacity: 0;
+}
+body.login div#login h1 a {}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label,
+body.login div#login form#registerform p label  {
+    font-weight: 300;
+    color: #4A4A4A!important;
+    /*opacity: 0*/
+}
+body.login div#login form#loginform input {
+
+}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit,
+body.login div#login form#registerform p.submit,
+body.login div#login form#lostpasswordform p.submit,
+body.login div#login form#resetpassform p.submit {
+    text-align: center;
+}
+body.login div#login form#loginform p.submit input#wp-submit,
+body.login div#login form#registerform p.submit input#wp-submit,
+body.login div#login form#lostpasswordform p.submit input#wp-submit,
+body.login div#login form#resetpassform p.submit input#wp-submit {
+    border: none!important;
+    background: #D73338!important;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: none;
+    border-radius: 1000px;
+    box-shadow: none;
+    display: inline-block;
+    float: none;
+    padding: 10px 40px 10px;
+    height: auto;
+    line-height: normal;
+    clear: both;
+}
+body.login div#login p#nav {
+    text-align: center;
+}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {
+    text-align: center;
+}
+body.login div#login p#backtoblog a {
+    font-size: 18px;
+    background: #2B2976;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+
+/*Custom*/
+#bg {
+    width: 100%;
+    height: 45%;
+    min-height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(img/bg-login.jpg) top no-repeat;
+    background-size: cover;
+    z-index: 1
+}
+#reg_passmail {
+    display: none;
+}
+.message.register {
+    display: none;
+}
+.login form .input,
+/*.login form input[type=checkbox],*/
+.login input[type=text],
+.login input[type=email],
+.login input[type=password] {
+    background: #EDEDED;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.login #login_error, .login .message {
+    border-left: 4px solid #D73338;
+}

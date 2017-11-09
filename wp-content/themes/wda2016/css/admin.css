@@ -1,0 +1,379 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+h1{
+  margin-top: 40px !important;
+  margin-bottom: 0 !important;
+}
+body{
+  background: #ffffff !important;
+}
+body.login {
+  font-family: 'Open Sans', sans-serif; }
+  body.login .clear:before,
+  body.login .clear:after {
+    content: ' ';
+    display: table; }
+  body.login .clear:after {
+    clear: both; }
+  body.login .clear {
+    *zoom: 1; }
+
+body.login div#login {
+  padding: 0% 0 0;
+  position: relative;
+  z-index: 2; }
+
+@media (max-width: 767px) {
+  body.login div#login {
+    padding: 100px 0 0; } }
+
+body.login div#login h1 {
+  margin-top:20px;
+  color: #665446;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  opacity: 0; }
+
+body.login div#login form#loginform p label,
+body.login div#login form#registerform p label {
+  font-weight: 300;
+  color: #4A4A4A !important;
+  /*opacity: 0*/ }
+
+body.login div#login form#loginform p.forgetmenot {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px; }
+
+body.login div#login form#loginform p.submit,
+body.login div#login form#registerform p.submit,
+body.login div#login form#lostpasswordform p.submit,
+body.login div#login form#resetpassform p.submit {
+  text-align: center; }
+
+body.login div#login form#loginform p.submit input#wp-submit,
+body.login div#login form#registerform p.submit input#wp-submit,
+body.login div#login form#lostpasswordform p.submit input#wp-submit,
+body.login div#login form#resetpassform p.submit input#wp-submit {
+  border: none !important;
+  background: #665446 !important;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: none;
+  border-radius: 1000px;
+  box-shadow: none;
+  display: inline-block;
+  float: none;
+  padding: 10px 40px 10px;
+  height: auto;
+  line-height: normal;
+  clear: both; }
+
+body.login div#login p#nav {
+  text-align: center; }
+
+body.login div#login p#backtoblog {
+  text-align: center; }
+
+body.login div#login p#backtoblog a {
+  font-size: 18px;
+  background: #665446;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px; }
+
+/*Custom*/
+#bg {
+  width: 100%;
+  height: 45%;
+  min-height: 500px;
+  position: absolute;
+  margin-left: auto;
+  margin-right:auto;
+  top: 0px;
+  left: 0;
+  background-size: contain;;
+  z-index: 0; }
+
+#bg-img{
+  width: 100%;
+  position: relative;
+  background: url("wp-content/uploads/2017_V2/cloud.jpg") top no-repeat;
+  background-size: contain;
+  max-width: 1000px;
+  height: 900px;
+  margin: auto;
+  z-index: 0;
+}
+
+#reg_passmail {
+  display: none; }
+
+.message.register {
+  display: none; }
+
+.login form .input,
+.login input[type=text],
+.login input[type=email],
+.login input[type=password] {
+  background: #EDEDED;
+  border: none;
+  box-shadow: none;
+  padding: 10px;
+  font-size: 16px; }
+
+.login #login_error, .login .message {
+  border-left: 4px solid #D73338; }
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: white; }
+  .header .header-inner {
+    max-width: 700px;
+    width: 95%;
+    margin: 0 auto; }
+  @media (max-width: 767px) {
+    .header {
+      height: 130px; } }
+  .header .logo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 23px;
+    vertical-align: top; }
+    .header .logo a {
+      display: inline-block;
+      width: 45%;
+      margin-right: 5%;
+      height: auto; }
+      .header .logo a .logo-img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle; }
+      .header .logo a.logo-2 {
+        width: 38%; }
+  .header .member-actions {
+    position: absolute;
+    top: 38px;
+    right: 0px;
+    display: none; }
+    .header .member-actions a {
+      margin-left: 10px; }
+    .logged-in .header .member-actions {
+      display: block; }
+    @media (max-width: 767px) {
+      .header .member-actions {
+        position: relative;
+        top: 0;
+        margin-top: 50px; }
+        .header .member-actions a {
+          margin-left: 5px;
+          margin-right: 10px; } }
+
+.page-title {
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
+  text-align: center;
+  max-width: 900px;
+  width: 95%;
+  margin: 0 auto; }
+  .page-title .main-title {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: #330072;
+    line-height: normal;
+    font-family: 'Raleway', sans-serif; }
+    @media (max-width: 767px) {
+      .page-title .main-title {
+        font-size: 24px; } }
+  .page-title .sub-text {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #c5299b;
+    margin-top: 10px;
+    line-height: normal;
+    font-family: 'Raleway', sans-serif; }
+
+.footer-logos {
+  background: white;
+  margin: 30px 0 0;
+  padding: 50px 0 20px; }
+  .footer-logos .footer-logos-inner {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto; }
+  .footer-logos .title {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-left: 0px; }
+  .footer-logos .left {
+    float: left;
+    width: 25%;
+    margin-bottom: 30px; }
+    .footer-logos .left .l {
+      width: 100%; }
+    @media (max-width: 767px) {
+      .footer-logos .left {
+        width: 100%;
+        float: none; }
+        .footer-logos .left .l {
+          text-align: left;
+          width: 33.3333%; } }
+  .footer-logos .right {
+    float: left;
+    width: 75%;
+    margin-bottom: 30px; }
+    @media (max-width: 767px) {
+      .footer-logos .right {
+        width: 100%;
+        float: none; }
+        .footer-logos .right .l {
+          text-align: left; } }
+  .footer-logos .l {
+    float: left;
+    width: 33.333%;
+    padding: 0 10px;
+    text-align: center; }
+    .footer-logos .l img {
+      max-width: 180px;
+      width: 100%;
+      height: auto; }
+
+.footer {
+  background: #25313d;
+  color: #5b616a;
+  text-align: center;
+  padding: 20px 0px; }
+
+.start-text{
+  position:relative;
+  z-index: 99;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 120px;
+  padding-left: 0px;
+}
+
+.login h1 {
+    text-align: center;
+    line-height: 40px;
+}
+
+#footer-style{
+  position:relaive !important;
+  background-color: transparent;
+  width:100%;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+#footer-style img {
+  
+  text-align:center;
+}
+
+.footer-container-text{
+  display: inline-block;
+  width: 19%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.footer-container-image-inner {
+    text-align: center;
+}
+
+.footer-container-text {
+    display: inline-text;
+    width: 140px;
+    margin:0 auto;
+}
+
+.footer-container-image-inner{
+  display: inline-text;
+  min-width: 200px;
+}
+
+.footer-container-image{
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.footer-logos{
+  height: 0px;
+}
+.footer-widgets{
+    height: 0px;
+    padding: 0px 0px 0px 0px !important;
+}
+
+/*Custom*/
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #665445;
+}
+
+td {
+    font-size: 15px;
+    color: #665445;
+}
+
+.big-display {
+    display: block;
+}
+
+.small-display{
+  display: none;
+}
+
+.small-display img{
+  width: 100%;
+}
+
+.footer-container-image-inner {
+    text-align: center;
+}
+
+/* Big Screen */
+@media only screen and (min-width:600px) {
+  .big-display {display: block;}
+  .small-display:{display: none;}
+  .bg-image{
+    background-image: url("mew/wp-content/uploads/2017_V2/cloud.jpg");
+  }
+}
+
+/* Small Screen */
+@media only screen and (max-width:599px) {
+  .big-display {display: none;}
+  .small-display {display: block;}
+  .bg-image{
+    background-image: url("mew/wp-content/uploads/2017_V2/cloud.jpg");
+  }
+}
+

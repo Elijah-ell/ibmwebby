@@ -1,0 +1,242 @@
+$pink: #c5299b;
+$purple: #330072;
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+body.login {
+    font-family: 'Open Sans', sans-serif;
+
+    .clear:before,
+    .clear:after {
+        content:' ';
+        display:table;
+    }
+
+    .clear:after {
+        clear:both;
+    }
+    .clear {
+        *zoom:1;
+    }
+}
+body.login div#login {
+    padding: 0% 0 0;
+    position: relative;
+    z-index: 2
+}
+@media (max-width:767px) {
+    body.login div#login {
+        padding: 100px 0 0;
+    }
+}
+body.login div#login h1 {
+    color: $purple;
+    font-size: 36px;
+    margin-bottom: 100px;
+    opacity: 0;
+}
+body.login div#login h1 a {}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label,
+body.login div#login form#registerform p label  {
+    font-weight: 300;
+    color: #4A4A4A!important;
+    /*opacity: 0*/
+}
+body.login div#login form#loginform input {
+
+}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit,
+body.login div#login form#registerform p.submit,
+body.login div#login form#lostpasswordform p.submit,
+body.login div#login form#resetpassform p.submit {
+    text-align: center;
+}
+body.login div#login form#loginform p.submit input#wp-submit,
+body.login div#login form#registerform p.submit input#wp-submit,
+body.login div#login form#lostpasswordform p.submit input#wp-submit,
+body.login div#login form#resetpassform p.submit input#wp-submit {
+    border: none!important;
+    background: $pink!important;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: none;
+    border-radius: 1000px;
+    box-shadow: none;
+    display: inline-block;
+    float: none;
+    padding: 10px 40px 10px;
+    height: auto;
+    line-height: normal;
+    clear: both;
+}
+body.login div#login p#nav {
+    text-align: center;
+}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {
+    text-align: center;
+}
+body.login div#login p#backtoblog a {
+    font-size: 18px;
+    background: #2B2976;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+
+/*Custom*/
+#bg {
+    width: 100%;
+    height: 45%;
+    min-height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: url(../img/main-banner.jpg) top no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+#reg_passmail {
+    display: none;
+}
+.message.register {
+    display: none;
+}
+.login form .input,
+/*.login form input[type=checkbox],*/
+.login input[type=text],
+.login input[type=email],
+.login input[type=password] {
+    background: #EDEDED;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.login #login_error, .login .message {
+    border-left: 4px solid #D73338;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: white;
+    z-index: 10;
+    .header-inner {
+        max-width:650px;
+    	width:94%;
+    	margin:0 auto;
+    }
+    .logo {
+    	width: 180px;
+    	height: auto;
+    	position: relative;
+    	top: 18px;
+        .logo-img {
+        	width: 100%;
+        	height: auto;
+        }
+    }
+    .member-actions {
+    	position: absolute;
+    	top: 38px;
+    	right: 20px;
+    	display: none;
+    }
+    .logged-in .member-actions {
+    	display: block;
+    }
+}
+
+.page-title {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+    text-align: center;
+    max-width: 900px;
+    width: 95%;
+    margin: 0 auto;
+    .main-title {
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        color: $purple;
+        line-height: normal;
+        font-family: 'Raleway', sans-serif;
+        @media(max-width: 767px) {
+            font-size: 24px;
+        }
+    }
+    .sub-text {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        color: $pink;
+        margin-top: 10px;
+        line-height: normal;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+.footer-logos {
+    background: white;
+    margin: 30px 0 0;
+    padding: 50px 0;
+    .footer-logos-inner {
+        max-width: 800px;
+        width: 95%;
+        margin: 0 auto;
+        div {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+            text-align: center;
+            img {
+                max-width: 150px;
+                width: 100%;
+                height: auto;
+            }
+            @media(max-width: 767px) {
+                width: 50%;
+                img {
+                    max-width: 180px;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+}
+.footer {
+	background: #25313d;
+    color: #5b616a;
+	text-align: center;
+	padding: 20px 0px;
+}
